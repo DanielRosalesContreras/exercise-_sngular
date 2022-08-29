@@ -1,0 +1,28 @@
+.form {
+    background-color: white;
+    border-radius: 5px;
+    padding: 32px;
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+    justify-content: center;
+}
+
+span {
+    font-size: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    height: min-content;
+}
+
+p {
+    margin: 24px 0;
+}
+
+p:hover {
+    opacity: 0.7;
+    -webkit-box-shadow: 0px 0px 15px 5px rgba(0,0,0,0.45); 
+    box-shadow: 0px 0px 15px 5px rgba(0,0,0,0.45);
+}

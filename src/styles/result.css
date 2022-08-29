@@ -1,0 +1,11 @@
+.result {
+    background-color: white;
+    border-radius: 5px;
+    margin: 0;
+    padding: 32px;
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+    justify-content: center;
+    height: calc(100% - 64px);
+}
